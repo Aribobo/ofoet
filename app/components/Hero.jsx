@@ -42,10 +42,11 @@ const Hero = () => {
           </div>
           <div className="ml-10 lg:ml-20 ">
             <p className="text-md lg:text-xl w-auto">
-A leading developer of A-grade commercial, industrial and recidential project in Nigeria.
+A leading developer of A-grade commercial, industrial and recidential Technology  in Nigeria.
   <br></br> 
-   Since its foundation the 
-company has doubled its turnover year on year, with its staff member swelling accordingly.
+  where innovation meets reliability in the realm of technology. 
+  As a leading tech company, we specialize in cutting-edge s
+  ervices that redefine the way you experience security, sustainability, and efficiency.
             </p>
 
           </div>
