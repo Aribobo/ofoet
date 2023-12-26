@@ -26,6 +26,8 @@ We thrive on innovation and continuously embrace the latest technologies in CCTV
  solar energy, and electrical services.
  Our commitment to quality ensures that our solutions are not only cutting-edge but also reliable,
  durable, and built to deliver lasting value.
+ We also extend our knowledge and experience
+ through our training programs designed to empower interested individuals.
 
 </p>
 
