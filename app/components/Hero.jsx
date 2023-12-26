@@ -4,7 +4,7 @@
 import Image from "next/image";
 import { AiOutlineMail } from "react-icons/ai";
 import {MdLocationOn } from "react-icons/md"; 
-
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -37,7 +37,7 @@ const Hero = () => {
           <p className="text-2xl lg:4xl text bold ">
           Provides Effective
           <br></br> 
-           Building Solutions!
+           Tech Solutions!
           </p>
           </div>
           <div className="ml-10 lg:ml-20 ">
@@ -53,8 +53,12 @@ A leading developer of A-grade commercial, industrial and recidential Technology
     
           <div className="ml-10 lg:ml-20 ">
             <div className="flex gap-4 ">
-              <button className="px-4  py-2 mt-4 bg-[#ff6a00] text-white font-bold ">Our services</button>
-              <button className="px-4 py-2 mt-4 bg-white text-black font-bold">About Us!</button>
+
+            <Link href="/#services">  <button className="px-4  py-2 mt-4 bg-[#ff6a00] text-white font-bold ">Our services</button>
+            </Link>
+              <Link href="/About"> <button className="px-4 py-2 mt-4 bg-white text-black font-bold">About Us!
+              </button>
+              </Link>
             </div>
           </div>
         
