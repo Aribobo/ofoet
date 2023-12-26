@@ -97,8 +97,8 @@ A leading developer of A-grade commercial, industrial and recidential Technology
         {/* end here */}
         </div>
         {/* the div below is for small devices */}
-        <div className="grid grid-cols md:hidden sm:hidden
-         lg:hidden">
+        <div className="grid grid-cols mt-4 md:hidden sm:hidden
+         lg:hidden ">
   <div className="ml-4 flex text-start items-start ">
           <p className="py-12 px-2">  <a href="mailto:ofoetnigltd@gmail.com">
               <AiOutlineMail  size={30} className="flex text-3xl cursor-pointer text-[#fd7e14] hover:text-[#ff6a00]" />
