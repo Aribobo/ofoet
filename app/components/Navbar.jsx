@@ -1,4 +1,4 @@
-                              'use client';
+"use client";
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
@@ -10,7 +10,7 @@ import { FiPhoneCall } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 
-  const Navbar = () => {
+const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [NavBg, setNavBg] = useState("transparent");
@@ -18,9 +18,7 @@ import { AiOutlineMail } from "react-icons/ai";
   const router = useRouter();
 
   useEffect(() => {
-    if (
-      router.asPath === "/About"
-    ) {
+    if (router.asPath === "/About") {
       setNavBg("#4f4f4f");
       setLinkColor("black");
     } else {
@@ -40,7 +38,7 @@ import { AiOutlineMail } from "react-icons/ai";
         setLinkColor("white");
       } else {
         setShadow(false);
-         setNavBg("transparent");
+        setNavBg("transparent");
       }
     };
     window.addEventListener("scroll", handleShadow);
@@ -67,21 +65,30 @@ import { AiOutlineMail } from "react-icons/ai";
         <div>
           <ul style={{ color: `${LinkColor}` }} className="hidden md:flex">
             <Link href="/#home">
-              <li className="ml-10 text-sm uppercase hover:border-b py-2">Home</li>
+              <li className="ml-10 text-sm uppercase hover:border-b py-2">
+                Home
+              </li>
             </Link>
             <Link href="/About">
-              <li className="ml-10 text-sm uppercase hover:border-b py-2">About</li>
+              <li className="ml-10 text-sm uppercase hover:border-b py-2">
+                About
+              </li>
             </Link>
             <Link href="/#projects ">
-              <li className="ml-10 text-sm uppercase hover:border-b py-2">projects </li>
+              <li className="ml-10 text-sm uppercase hover:border-b py-2">
+                projects{" "}
+              </li>
             </Link>
             <Link href="/#services">
-              <li className="ml-10 text-sm uppercase hover:border-b py-2">services</li>
+              <li className="ml-10 text-sm uppercase hover:border-b py-2">
+                services
+              </li>
             </Link>
             <Link href="#">
-              <li className="ml-10 text-sm uppercase  py-2 px-4 bg-[#ff6a00] rounded-lg">contact</li>
+              <li className="ml-10 text-sm uppercase  py-2 px-4 bg-[#ff6a00] rounded-lg">
+                contact
+              </li>
             </Link>
-           
           </ul>
           <div
             style={{ color: `${LinkColor}` }}
@@ -126,7 +133,6 @@ import { AiOutlineMail } from "react-icons/ai";
               <p className="w-[85%] md:w-[90%] py-4 text-md text-white">
                 {" "}
                 For your Tech installation services and products{" "}
-              
               </p>
             </div>
           </div>
@@ -147,26 +153,27 @@ import { AiOutlineMail } from "react-icons/ai";
                   projects
                 </li>
               </Link>
-             
+
               <Link href="/#services">
-              <li className="py-4 text-md" onClick={() => setNav(false)}>
+                <li className="py-4 text-md" onClick={() => setNav(false)}>
                   services
                 </li>
               </Link>
               <Link href="#">
-              <li className="py-4 text-md" onClick={() => setNav(false)}>
+                <li className="py-4 text-md" onClick={() => setNav(false)}>
                   contact
                 </li>
               </Link>
-            
             </ul>
             <br />
-            <p className="py-2 text-2xl text-bold text-[#ff6a00]">Connect with us</p>
+            <p className="py-2 text-2xl text-bold text-[#ff6a00]">
+              Connect with us
+            </p>
           </div>
 
           <div className="flex gap-6 pb-5 justify-start items-center text-white">
             <a href="https://www.facebook.com/profile.php?id=100093083571109">
-            <FaFacebook className=" flex text-3xl cursor-pointer hover:text-blue-700" />
+              <FaFacebook className=" flex text-3xl cursor-pointer hover:text-blue-700" />
             </a>
             <a href="mailto:iphounditonline@gmail.com">
               <AiOutlineMail className=" flex text-3xl cursor-pointer hover:text-[#fd7e14]" />

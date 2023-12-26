@@ -27,8 +27,8 @@ const Footer = () => {
                 </p>
               </Link>
               <div className="flex gap-6 pb-5 justify-center items-center">
-              <a href="https://www.facebook.com/profile.php?id=100063884890800">               
-                <FaFacebook className=" flex text-3xl cursor-pointer hover:text-blue-700" />
+                <a href="https://www.facebook.com/profile.php?id=100063884890800">
+                  <FaFacebook className=" flex text-3xl cursor-pointer hover:text-blue-700" />
                 </a>
                 <a href="mailto:ofoetnigltd@gmail.com">
                   <AiOutlineMail className=" flex text-3xl cursor-pointer hover:text-[#ff6a00] " />
@@ -56,28 +56,36 @@ const Footer = () => {
                 </li>
               </Link>
               <Link href="#">
-                <li className=" flex justify-center items-center text-xl pb-2 font-semibold 
-                hover:text-[#ff6a00] cursor-pointer">
+                <li
+                  className=" flex justify-center items-center text-xl pb-2 font-semibold 
+                hover:text-[#ff6a00] cursor-pointer"
+                >
                   Solar Energy
                 </li>
               </Link>
 
               <Link href="#">
-                <li className="  flex justify-center items-center text-xl pb-2 font-semibold 
-                hover:text-[#ff6a00] cursor-pointer">
+                <li
+                  className="  flex justify-center items-center text-xl pb-2 font-semibold 
+                hover:text-[#ff6a00] cursor-pointer"
+                >
                   Electrical
                 </li>
               </Link>
 
               <Link href="#">
-                <li className=" flex justify-center items-center text-xl pb-2 font-semibold 
-                hover:text-[#ff6a00] cursor-pointer">
+                <li
+                  className=" flex justify-center items-center text-xl pb-2 font-semibold 
+                hover:text-[#ff6a00] cursor-pointer"
+                >
                   Automation
                 </li>
               </Link>
               <Link href="#">
-                <li className=" flex justify-center items-center text-xl pb-2 font-semibold
-                 hover:text-[#ff6a00] cursor-pointer">
+                <li
+                  className=" flex justify-center items-center text-xl pb-2 font-semibold
+                 hover:text-[#ff6a00] cursor-pointer"
+                >
                   Training
                 </li>
               </Link>
@@ -98,14 +106,16 @@ const Footer = () => {
               </Link>
 
               <Link href="#">
-                <li className="flex justify-center items-center hover:text-[#ff6a00]
-                 cursor-pointer text-xl  font-semibold py-2  pt-2">
+                <li
+                  className="flex justify-center items-center hover:text-[#ff6a00]
+                 cursor-pointer text-xl  font-semibold py-2  pt-2"
+                >
                   Help
                 </li>
               </Link>
             </ul>
           </div>
-          
+
           <div className="p-2 flex justify-center items-center text-white">
             <ul>
               <p className=" flex justify-center items-center font-bold text-2xl pb-6 text-[#ff6a00]">
@@ -115,18 +125,18 @@ const Footer = () => {
                 +2348032807393
               </li>
               <li className=" flex justify-center items-center text-center  text-xl  font-semibold py-2 flex ">
-              Onuiyi Junction,Nsukka
+                Onuiyi Junction,Nsukka
               </li>
               <li className="flex justify-center items-center  text-xl  font-semibold py-2 ">
-              ofoetnigltd@gmail.com
+                ofoetnigltd@gmail.com
               </li>
             </ul>
           </div>
         </div>
         <div className="flex flex-col justify-center items-center text-center text-white p-5 bg-[#272727]">
           <h5 className="  font-semibold">
-            © 2023 Ofo<span className="text-[#ff6a00]">et</span> || All
-            rights reserved
+            © 2023 Ofo<span className="text-[#ff6a00]">et</span> || All rights
+            reserved
           </h5>
         </div>
       </div>
