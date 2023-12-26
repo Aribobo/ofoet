@@ -98,7 +98,7 @@ company has doubled its turnover year on year, with its staff member swelling ac
         {/* the div below is for small devices */}
         <div className="grid grid-cols md:hidden sm:hidden
          lg:hidden">
-  <div className="ml-10 flex text-start items-start ">
+  <div className="ml-4 flex text-start items-start ">
           <p className="py-12 px-2">  <a href="mailto:ofoetnigltd@gmail.com">
               <AiOutlineMail  size={30} className="flex text-3xl cursor-pointer text-[#fd7e14] hover:text-[#ff6a00]" />
             </a> </p>
@@ -111,7 +111,7 @@ company has doubled its turnover year on year, with its staff member swelling ac
          Phone:08032807393
         </p>
             </div>
-          <div className="ml-10 flex text-end items-end justify-end">
+          <div className="ml-4 flex text-end items-end justify-end">
           <p className="py-12 px-2">  
                <MdLocationOn size={30} className=" flex text-3xl cursor-pointer text-[#fd7e14] hover:text-[#fd7e14]" />
              </p>

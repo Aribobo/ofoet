@@ -61,7 +61,7 @@ lg:h-80 md:h-auto sm:h-auto">
 <div className="flex justify-center items-center pt-4">
 <Image
         className=" justify-center"
-        src="/Elect.png"
+        src="/elect.png"
         alt=" "
         width={100}
         height={90}
