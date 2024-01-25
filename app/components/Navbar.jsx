@@ -84,7 +84,7 @@ const Navbar = () => {
                 services
               </li>
             </Link>
-            <Link href="#">
+            <Link href="/#footer">
               <li className="ml-10 text-sm uppercase  py-2 px-4 bg-[#ff6a00] rounded-lg">
                 contact
               </li>
@@ -159,7 +159,7 @@ const Navbar = () => {
                   services
                 </li>
               </Link>
-              <Link href="#">
+              <Link href="/#footer">
                 <li className="py-4 text-md" onClick={() => setNav(false)}>
                   contact
                 </li>

@@ -8,12 +8,12 @@ const Latest = () => {
   return (
     <div className="w-full h-full">
       <div id="projects" className="w-full h-auto text-center bg-[#fbf9fa]">
-        <p className="pb-2 p-2 mt-10 underline text-2xl sm:mt-10 text-[#ff6a00] text-bold lg:mt-4 md:mt-20">
+      
+        <h2 className="text-center font-bold mb-4 lg:mt-4 md:mt-20 sm:mt-10"> Our Recent Works</h2>
+        <p className="pb-2  mt-2 mb-2 text-2xl  text-[#ff6a00] text-bold ">
           {" "}
-          our featured projects
+           Featured projects
         </p>
-
-        <h2 className="text-center font-bold mb-4"> Our Recent Works</h2>
         <div className="ml-4 mr-4 mb-12 grid grid-cols md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <div className="relative group shadow-gray-600 rounded-lg overflow-hidden shadow-md ml-2 mr-2">
             <img className="w-full  rounded-lg shadow-md "

@@ -47,7 +47,7 @@ const Footer = () => {
               <p className=" flex justify-center items-center font-bold text-2xl pb-4 text-[#ff6a00]">
                 SERVICES
               </p>
-              <Link href="#">
+              <Link href="/#services">
                 <li
                   className="flex justify-center items-center text-xl pb-2 font-semibold
 						 hover:text-[#ff6a00] cursor-pointer"
@@ -55,7 +55,7 @@ const Footer = () => {
                   CCTV Installation
                 </li>
               </Link>
-              <Link href="#">
+              <Link href="/#services">
                 <li
                   className=" flex justify-center items-center text-xl pb-2 font-semibold 
                 hover:text-[#ff6a00] cursor-pointer"
@@ -64,7 +64,7 @@ const Footer = () => {
                 </li>
               </Link>
 
-              <Link href="#">
+              <Link href="/#services">
                 <li
                   className="  flex justify-center items-center text-xl pb-2 font-semibold 
                 hover:text-[#ff6a00] cursor-pointer"
@@ -73,7 +73,7 @@ const Footer = () => {
                 </li>
               </Link>
 
-              <Link href="#">
+              <Link href="/#services">
                 <li
                   className=" flex justify-center items-center text-xl pb-2 font-semibold 
                 hover:text-[#ff6a00] cursor-pointer"
@@ -81,7 +81,7 @@ const Footer = () => {
                   Automation
                 </li>
               </Link>
-              <Link href="#">
+              <Link href="/#services">
                 <li
                   className=" flex justify-center items-center text-xl pb-2 font-semibold
                  hover:text-[#ff6a00] cursor-pointer"
@@ -105,18 +105,18 @@ const Footer = () => {
                 </li>
               </Link>
 
-              <Link href="#">
+              {/* <Link href="#">
                 <li
                   className="flex justify-center items-center hover:text-[#ff6a00]
                  cursor-pointer text-xl  font-semibold py-2  pt-2"
                 >
                   Help
                 </li>
-              </Link>
+              </Link> */}
             </ul>
           </div>
 
-          <div className="p-2 flex justify-center items-center text-white">
+          <div id="footer" className="p-2 flex justify-center items-center text-white">
             <ul>
               <p className=" flex justify-center items-center font-bold text-2xl pb-6 text-[#ff6a00]">
                 CONTACT

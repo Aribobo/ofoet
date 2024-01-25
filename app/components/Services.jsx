@@ -6,11 +6,11 @@ import Image from "next/image";
 const Services = () => {
   return (
     <div id="services" className="w-full text-center">
-      <p className="pb-2 p-2 text-2xl text-center underline sm:mt-10 text-[#ff6a00] text-bold lg:mt-4 md:mt-20">
-        what we do
-      </p>
-
-      <h2 className="text-center font-bold mb-8"> Services</h2>
+     <h2 className="text-center font-bold mb-4 lg:mt-4 md:mt-20 sm:mt-10"> Our Services</h2>
+        <p className="pb-2  mt-2 mb-2 text-2xl  text-[#ff6a00] text-bold ">
+          {" "}
+           What we do
+        </p>
       <div
         className=" h-full  gap-8 ml-8 mr-8 mb-12 grid grid-cols
      md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 ml-8 mr-8 gap-8"
