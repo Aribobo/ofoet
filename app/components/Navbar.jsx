@@ -34,7 +34,7 @@ const Navbar = () => {
     const handleShadow = () => {
       if (window.scrollY >= 10) {
         setShadow(true);
-        setNavBg("#4f4f4f");
+        setNavBg("#272727");
         setLinkColor("white");
       } else {
         setShadow(false);
