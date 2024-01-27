@@ -9,7 +9,7 @@ const Latest = () => {
     <div className="w-full h-full">
       <div id="projects" className="w-full h-auto text-center bg-[#fbf9fa]">
       
-        <h2 className="text-center font-bold mb-4 lg:mt-4 md:mt-20 sm:mt-10"> Our Recent Works</h2>
+        <h2 className="text-center font-bold mb-4 mt-10 lg:mt-4 md:mt-20 sm:mt-10"> Our Recent Works</h2>
         <p className="pb-2  mt-2 mb-2 text-2xl  text-[#ff6a00] text-bold ">
           {" "}
            Featured projects
