@@ -33,7 +33,7 @@ const Navbar = () => {
   };
   useEffect(() => {
     const handleShadow = () => {
-      if (window.scrollY >= 60) {
+      if (window.scrollY >= 50) {
         setShadow(true);
         setNavBg("#fff");
         setLinkColor("#2c3e50");
