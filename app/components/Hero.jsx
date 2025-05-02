@@ -32,7 +32,7 @@ const Hero = () => {
           width={1600}
         />
 
-        <div className="absolute w-full text-start text-white sm:mb-16">
+        <div className="absolute w-full text-start text-white sm:mb-16 mt-10">
           <div className="ml-10 lg:ml-20 mb-8 mt-20 sm:pt-20 xl:mt-10 ">
             <p className="text-2xl lg:4xl text bold  mt-8">
               Provides Effective
