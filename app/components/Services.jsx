@@ -12,7 +12,7 @@ const Services = () => {
           <br></br>
 
           <span className="text-[#27ae60]">What We Do</span>
-          <p className="pb-2  mt-2 mb-2 text-2xl  text-[#ff6a00] text-bold ">
+          <p className="pb-2  mt-2 mb-2 text-2xl  text-bold ">
             {" "}
             <span className="text-[#2c3e50]">Featured Services</span>
           </p>
@@ -126,7 +126,7 @@ const Services = () => {
             </div>
           </div>
           <div id="custom"
-            className="relative group shadow-gray-600 overflow-hidden  ml-2 mr-2 bg-white 
+            className="relative group shadow-gray-600 overflow-hidden  ml-2 mr-2 
            transition hover:shadow 
            ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300 
             hover:text-[#2C3E50]"

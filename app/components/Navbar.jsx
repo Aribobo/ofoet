@@ -14,8 +14,8 @@ import { AiOutlineMail } from "react-icons/ai";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [NavBg, setNavBg] = useState("white");
-  const [LinkColor, setLinkColor] = useState("#1f425d");
+  const [NavBg, setNavBg] = useState("transparent");
+  const [LinkColor, setLinkColor] = useState("#faf3e0");
   const router = useRouter();
 
   //   useEffect(() => {
@@ -33,7 +33,7 @@ const Navbar = () => {
   };
   useEffect(() => {
     const handleShadow = () => {
-      if (window.scrollY >= 10) {
+      if (window.scrollY >= 60) {
         setShadow(true);
         setNavBg("#fff");
         setLinkColor("#2c3e50");
@@ -131,7 +131,7 @@ const Navbar = () => {
             <div className="flex w-full items-center justify-between ">
               <Link href="/#home">
                 <p
-                  className="text-white font-bold text-3xl pb-6 hover:cursor-pointer"
+                  className="text-[#faf3e0] font-bold text-3xl pb-6 hover:cursor-pointer"
                   onClick={() => setNav(false)}
                 >
                    {/* <img className=" md:ml-8 lg:ml-8"
@@ -153,13 +153,13 @@ const Navbar = () => {
               </div>
             </div>
             {/* <div className="border-b border-orange-400 my-4">
-              <p className="w-[85%] md:w-[90%] py-4 text-md text-white">
+              <p className="w-[85%] md:w-[90%] py-4 text-md text-[#faf3e0]">
                 {" "}
                 For your Tech installation services and products{" "}
               </p>
             </div> */}
           </div>
-          <div className="py-4 flex flex-col text-white">
+          <div className="py-4 flex flex-col text-[#faf3e0]">
             <ul className="uppercase">
               <Link href="/#home">
                 <li
@@ -209,7 +209,7 @@ const Navbar = () => {
             </p>
           </div>
 
-          <div className="flex gap-6 pb-5 justify-start items-center text-white">
+          <div className="flex gap-6 pb-5 justify-start items-center text-[#faf3e0]">
             <a href="#">
               <FaFacebook className=" flex text-3xl cursor-pointer hover:text-blue-700" />
             </a>

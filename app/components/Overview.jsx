@@ -6,8 +6,8 @@ const Overview = () => {
  
   return (
     <div id="about" className="w-full bg-white">
-      <div className="text-bold text-2xl text-center justify-center pt-8 lg:text-4xl md:text-4xl mt-8">
-        <span className=" text-bold text-[#27ae60] ">Company Overview</span>
+      <div className="text-bold text-2xl text-center justify-center pt-8 lg:text-4xl md:text-4xl">
+        <span className=" text-bold text-[#1a6e3d] ">Company Overview</span>
       </div>
       <div className="grid grid-cols lg:grid-cols-3">
         <div className="pix md:col-span-1 lg:col-span-2 ml-8 mr-8 mt-10 mb-10">
