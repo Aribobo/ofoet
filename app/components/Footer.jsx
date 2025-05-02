@@ -11,7 +11,7 @@ const Footer = () => {
     <>
       {" "}
       <div
-        className="bg-[#272727]  shadow-xl
+        className="bg-[#2c3e50] shadow-xl
         shadow-gray-400 rounded-xl"
       >
         <div
@@ -19,11 +19,11 @@ const Footer = () => {
           className=" w-full grid grid-cols md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 
           justify-center items-center p-20  "
         >
-          <div className="p-2 text-white">
+          <div className="p-2 text-[#faf3e0]">
             <ul>
               <Link href="/#home">
-                <p className=" flex  font-bold text-3xl pb-6 justify-center items-center text-white">
-                  Ofo<span className="text-[#fd7e14]">et</span>
+                <p className=" flex  font-bold text-3xl pb-6 justify-center items-center text-[#faf3e0]">
+                  Ofo<span className="text-[#27ae60]">et</span>
                 </p>
               </Link>
               <div className="flex gap-6 pb-5 justify-center items-center">
@@ -42,15 +42,15 @@ const Footer = () => {
               </div>
             </ul>
           </div>
-          <div className="p-2 flex justify-center items-center text-white">
+          <div className="p-2 flex justify-center items-center text-[#faf3e0]">
             <ul>
-              <p className=" flex justify-center items-center font-bold text-2xl pb-4 text-[#ff6a00]">
+              <p className=" flex justify-center items-center font-bold text-2xl pb-4 text-[#27ae60]">
                 SERVICES
               </p>
               <Link href="/#services">
                 <li
                   className="flex justify-center items-center text-xl pb-2 font-semibold
-						 hover:text-[#ff6a00] cursor-pointer"
+						 hover:text-[#27ae60] cursor-pointer"
                 >
                   CCTV Installation
                 </li>
@@ -58,7 +58,7 @@ const Footer = () => {
               <Link href="/#services">
                 <li
                   className=" flex justify-center items-center text-xl pb-2 font-semibold 
-                hover:text-[#ff6a00] cursor-pointer"
+                hover:text-[#27ae60] cursor-pointer"
                 >
                   Solar Energy
                 </li>
@@ -67,7 +67,7 @@ const Footer = () => {
               <Link href="/#services">
                 <li
                   className="  flex justify-center items-center text-xl pb-2 font-semibold 
-                hover:text-[#ff6a00] cursor-pointer"
+                hover:text-[#27ae60] cursor-pointer"
                 >
                   Electrical
                 </li>
@@ -76,7 +76,7 @@ const Footer = () => {
               <Link href="/#services">
                 <li
                   className=" flex justify-center items-center text-xl pb-2 font-semibold 
-                hover:text-[#ff6a00] cursor-pointer"
+                hover:text-[#27ae60] cursor-pointer"
                 >
                   Automation
                 </li>
@@ -84,22 +84,22 @@ const Footer = () => {
               <Link href="/#services">
                 <li
                   className=" flex justify-center items-center text-xl pb-2 font-semibold
-                 hover:text-[#ff6a00] cursor-pointer"
+                 hover:text-[#27ae60] cursor-pointer"
                 >
                   Training
                 </li>
               </Link>
             </ul>
           </div>
-          <div className="p-2 flex justify-center items-center text-white">
+          <div className="p-2 flex justify-center items-center text-[#faf3e0]">
             <ul>
-              <p className=" flex justify-center items-center font-bold text-2xl pb-4 text-[#ff6a00]">
+              <p className=" flex justify-center items-center font-bold text-2xl pb-4 text-[#27ae60]">
                 COMPANY
               </p>
               <Link href="/About">
                 <li
                   className="flex justify-center items-center
-						  hover:text-[#ff6a00] cursor-pointer text-xl  font-semibold py-2  pt-2"
+						  hover:text-[#27ae60] cursor-pointer text-xl  font-semibold py-2  pt-2"
                 >
                   About
                 </li>
@@ -115,16 +115,16 @@ const Footer = () => {
               </Link> */}
             </ul>
           </div>
-
-          <div id="footer" className="p-2 flex justify-center items-center text-white">
+ 
+          <div id="footer" className="p-2 flex justify-center items-center text-[#faf3e0]">
             <ul>
-              <p className=" flex justify-center items-center font-bold text-2xl pb-6 text-[#ff6a00]">
+              <p className=" flex justify-center items-center font-bold text-2xl pb-6 text-[#27ae60]">
                 CONTACT
               </p>
-              <li className=" flex justify-center items-center  text-xl  font-semibold py-2 flex ">
+              <li className=" flex justify-center items-center  text-xl  font-semibold py-2  ">
                 +2348032807393
               </li>
-              <li className=" flex justify-center items-center text-center  text-xl  font-semibold py-2 flex ">
+              <li className=" flex justify-center items-center text-center  text-xl  font-semibold py-2  ">
                 Onuiyi Junction,Nsukka
               </li>
               <li className="flex justify-center items-center  text-xl  font-semibold py-2 ">
@@ -133,9 +133,9 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center text-center text-white p-5 bg-[#272727]">
+        <div className="flex flex-col justify-center items-center text-center text-[#faf3e0] p-5 bg-[#2c3e50] ">
           <h5 className="  font-semibold">
-            © 2023 Ofo<span className="text-[#ff6a00]">et</span> || All rights
+            © 2025 Ofo<span className="text-[#27ae60]">et</span> || All rights
             reserved
           </h5>
         </div>

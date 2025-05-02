@@ -1,167 +1,155 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 
 const Services = () => {
+ 
   return (
-    <div id="services" className="w-full text-center">
-     <h2 className="text-center font-bold mb-4 lg:mt-4 md:mt-20 sm:mt-10"> Our Services</h2>
-        <p className="pb-2  mt-2 mb-2 text-2xl  text-[#ff6a00] text-bold ">
-          {" "}
-           What we do
-        </p>
-      <div
-        className=" h-full  gap-8 ml-8 mr-8 mb-12 grid grid-cols
-     md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 ml-8 mr-8 gap-8"
-      >
-        {/*6  grid for 6 services provided */}
+    // <div className="w-full bg-[#2C3E50] mt-4">
+    <div className="w-full mt-4 ">
+      <div id="services" className="w-full h-auto text-center">
+        <div className="text-bold text-2xl text-center justify-center lg:text-4xl md:text-4xl">
+          <br></br>
 
-        <div
-          className=" rounded-lg 
-transition hover:shadow-gray-200 
-shadow-xl ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300 
-lg:h-80 md:h-auto sm:h-auto"
-        >
-          <div className="flex justify-center items-center pt-4 ">
-            <Image
-              className=" justify-center"
-              src="/cctv.png"
-              alt=" "
-              width={100}
-              height={90}
-            />
-          </div>
-          <p className="py-2 text-2xl"> CCTV Installations</p>
-          <p className="px-3 mb-2">
-            welcome to our quality CCTV installation service, where we
-            specialize in providing state-of-the art surveillance tailored to
-            your unique needs. Our technicians ensures seamless
-            installation,offering peace of mind through vigilant monitoring.
-          </p>
-        </div>
-
-        <div
-          className=" rounded-lg 
-transition hover:shadow-gray-200 
-shadow-xl ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300 
-lg:h-80 md:h-auto sm:h-auto"
-        >
-          <div className="flex justify-center items-center pt-4">
-            <Image
-              className=" justify-center rounded-full"
-              src="/solar.png"
-              alt=" "
-              width={100}
-              height={90}
-            />
-          </div>
-          <p className="py-2 text-2xl">Solar Energy</p>
-          <p className="px-3 mb-2">
-            At Ofoet Nig Ltd, we harness the sun's limitless energy to power
-            your life sustainably. Our expert team customizes solar solutions
-            for homes and businesses, seamlessly integrating cutting-edge
-            technology. Join us in the renewable energy revolution.
+          <span className="text-[#27ae60]">What We Do</span>
+          <p className="pb-2  mt-2 mb-2 text-2xl  text-[#ff6a00] text-bold ">
+            {" "}
+            <span className="text-[#2c3e50]">Featured Services</span>
           </p>
         </div>
         <div
-          className=" rounded-lg 
-transition hover:shadow-gray-200 
-shadow-xl ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300 
-lg:h-80 md:h-auto sm:h-auto"
+          className="ml-4 mr-4 mb-12 grid grid-cols md:grid-cols-2gap-4 
+        sm:grid-cols-2 lg:grid-cols-3 gap-4"
         >
-          <div className="flex justify-center items-center pt-4">
-            <Image
-              className=" justify-center"
-              src="/elect.png"
-              alt=" "
-              width={100}
-              height={90}
+          <div id="air"
+            className="relative group shadow-gray-600 overflow-hidden ml-2 mr-2 bg-white 
+           transition hover:shadow
+           ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300"
+          >
+            <img
+              className="w-full "
+              src="https://res.cloudinary.com/ddukktwrv/image/upload/v1728404268/aircraft_zrolvk.jpg"
+               width={100}
+               height={20}
+               alt="air freight"
             />
+            {/* <div className="py-4 px-6 bg-[#1f4xxx25d] "> */}
+            <div className="py-4 px-6 bg-white ">
+              <p className=" text-start text-[#27ae60] text-2xl">Air Freight</p>
+              <p className="text-start text-[#2c3e50] ">
+              In today’s fast-paced marketplace, time is money.
+               Our air freight solutions guarantee rapid delivery, often within 24 to 48 hours, 
+              making it ideal for urgent shipments.
+             
+              </p>
+            </div>
           </div>
-          <p className="py-2 text-2xl text-bold"> Electrical</p>
-          <p className="px-3 mb-2">
-            With a commitment to excellence and a legacy of reliability, we
-            bring comprehensive electrical services. Our team of skilled
-            electricians is dedicated to providing top-notch solutions for
-            residential, commercial, and industrial clients projects.
-          </p>
-        </div>
-
-        <div
-          className=" rounded-lg 
-transition hover:shadow-gray-200 
-shadow-xl ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300 
-lg:h-80 md:h-auto sm:h-auto"
-        >
-          <div className="flex justify-center items-center pt-4 ">
-            <Image
-              className=" justify-center"
-              src="/automate.png"
-              alt=" "
+          <div id="ocean"
+            className="relative group shadow-gray-600 overflow-hidden ml-2 mr-2 bg-white 
+           transition hover:shadow
+           ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300"
+          >
+            <img
+              className="w-full"
+              src="https://res.cloudinary.com/ddukktwrv/image/upload/v1728403934/loaded_ship_mceec6.jpg"
               width={100}
-              height={90}
+               height={20}
+               alt="ocean freight"
             />
+       <div className="py-4 px-6 bg-white ">
+              <p className=" text-start text-[#27ae60] text-2xl">Ocean Freight</p>
+              <p className="text-start text-[#2c3e50] ">
+              With access to major shipping routes and ports worldwide,
+               we ensure your cargo reaches its destination, no matter where it is.
+                
+              </p>
+            </div>
           </div>
-          <p className="py-2 text-2xl">Automation</p>
-          <p className="px-3 mb-2">
-            With a team of skilled engineers and technicians, we bring a wealth
-            of expertise to the field of automation. Our proficiency spans
-            industries, ensuring that our clients receive solutions tailored to
-            their unique requirements.
-          </p>
-        </div>
-
-        <div
-          className=" rounded-lg 
-transition hover:shadow-gray-200 
-shadow-xl ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300 
-lg:h-80 md:h-auto sm:h-auto"
-        >
-          <div className="flex justify-center items-center pt-4 ">
-            <Image
-              className=" justify-center rounded-lg"
-              src="/training.png"
-              alt=" "
+          <div id="road" 
+            className="relative group shadow-gray-600 overflow-hidden  ml-2 mr-2 bg-white 
+           transition hover:shadow
+         ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300"
+          >
+            <img
+              className="w-full"
+              src="https://res.cloudinary.com/ddukktwrv/image/upload/v1728403938/truck_a5hs88.jpg"
+               width={100}
+               height={20}
+               alt="truck"
+            />
+           <div className="py-4 px-6 bg-white ">
+              <p className=" text-start text-[#27ae60] text-2xl">Road Freight</p>
+              <p className="text-start text-[#2c3e50] ">
+              From small parcels to full truckloads, we handle shipments of all sizes,
+               adapting to your specific logistics needs.
+              </p>
+            </div>
+          </div>
+          <div  id="warehouse"
+            className="relative group shadow-gray-600 overflow-hidden  ml-2 mr-2 bg-white 
+           transition hover:shadow
+           ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300"
+          >
+            <img
+              className="w-full "
+              src="https://res.cloudinary.com/ddukktwrv/image/upload/v1728403970/warehouse_zlju12.jpg"
+               width={100}
+               height={20}
+               alt="ware house"
+            />
+         <div className="py-4 px-6 bg-white ">
+              <p className=" text-start text-[#27ae60] text-2xl">Warehousing</p>
+              <p className="text-start text-[#2c3e50] ">
+              Whether you need short-term storage for seasonal inventory or long-term warehousing,
+               we offer customizable options to fit your business needs.
+              </p>
+            </div>
+          </div>
+          <div
+            className="relative group shadow-gray-600 overflow-hidden ml-2 mr-2 bg-white 
+           transition hover:shadow
+           ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300"
+          >
+            <img
+              className="w-full "
+              src="https://res.cloudinary.com/ddukktwrv/image/upload/v1728403960/train_gnnynf.jpg"
               width={100}
-              height={90}
+              height={20}
+              alt="continental rail"
             />
+          <div className="py-4 px-6 bg-white ">
+              <p className=" text-start text-[#27ae60] text-2xl">Continental Rail</p>
+              <p className="text-start text-[#2c3e50] ">
+              Our rail services connect major cities and industrial hubs,
+              ensuring your shipments reach their destinations across continents seamlessly.
+              </p>
+            </div>
           </div>
-          <p className="py-2 text-2xl">Training</p>
-          <p className="px-3 mb-2">
-            As a leading force in the engineering industry, we are proud to
-            extend our knowledge and experience through our comprehensive
-            training programs designed to empower individuals and organizations
-            with the skills needed to thrive in a dynamic technological
-            landscape.
-          </p>
-        </div>
-
-        <div
-          className=" rounded-lg 
-transition hover:shadow-gray-200 
-shadow-xl ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300 
-lg:h-80 md:h-auto sm:h-auto"
-        >
-          <div className="flex justify-center items-center pt-4 ">
-            <Image
-              className=" justify-center"
-              src="/gadget.png"
-              alt=" "
-              width={100}
-              height={90}
+          <div id="custom"
+            className="relative group shadow-gray-600 overflow-hidden  ml-2 mr-2 bg-white 
+           transition hover:shadow 
+           ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300 
+            hover:text-[#2C3E50]"
+          >
+            <img
+              className="w-full "
+              src="https://res.cloudinary.com/ddukktwrv/image/upload/v1728602203/harbor_nyblbq.jpg"
+               width={100}
+               height={20}
+               alt="Drone"
             />
+          <div className="py-4 px-6 bg-white ">
+              <p className=" text-start text-[#27ae60] text-2xl">Customs Brokerage</p>
+              <p className="text-start text-[#2c3e50] ">
+              We streamline the customs process, reducing delays and expediting the 
+              clearance of your goods so they can reach their
+             destination without unnecessary holdups.
+              </p>
+            </div>
           </div>
-          <p className="py-2 text-2xl">Gadgets </p>
-          <p className="px-3 mb-2">
-            As a forefront player in the industry, we take pride in selling and
-            delivering high-quality, innovative solutions designed to meet the
-            diverse needs of our customers. Explore our product categories,
-            including CCTV, solar panels, batteries, and more, designed to
-            enhance sustainability, and efficiency.
-          </p>
         </div>
       </div>
+      <br></br>
     </div>
   );
 };

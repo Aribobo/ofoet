@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="w-full text-center lg:h-screen md:h-screen sm:h-screen"
+      className="w-full text-center lg:h-screen md:h-screen sm:h-screen text-[#1f425d]"
     >
       <div
         className="max-w-[2560px] w-full h-96 mx-auto p-2 flex justify-center items-center bg-cover
@@ -55,13 +55,13 @@ const Hero = () => {
             <div className="flex gap-4 ">
               <Link href="/#services">
                 {" "}
-                <button className="px-4  py-2 mt-4 bg-[#ff6a00] text-white font-bold ">
+                <button className="px-4  py-2 mt-4 bg-[#27ae60] text-white font-bold ">
                   Our services
                 </button>
               </Link>
               <Link href="/About">
                 {" "}
-                <button className="px-4 py-2 mt-4 bg-white text-black font-bold">
+                <button className="px-4 py-2 mt-4 bg-white text-[#2c3e50] font-bold">
                   About Us!
                 </button>
               </Link>
@@ -75,16 +75,20 @@ const Hero = () => {
         <div className=" hidden sm:flex gap-4  ml-4 lg:ml-20 w-full">
           <p className="py-16 sm:py-12">
             {" "}
-            <a href="mailto:iphounditonline@gmail.com">
-              <AiOutlineMail
+            <a href="mailto:ofoetnigltd@gmail.com">
+              {/* <AiOutlineMail
                 size={30}
-                className=" flex text-3xl cursor-pointer text-[#fd7e14] hover:text-[#ff6a00]"
+                className=" flex text-3xl cursor-pointer text-[#fd7062]  hover:text-[#fd7062] "
+              /> */}
+               <AiOutlineMail
+                size={30}
+                className=" flex text-3xl cursor-pointer text-[#27ae60]  hover:text-[#27ae60] "
               />
             </a>{" "}
           </p>
 
           <p className="py-8 text-sm text-start lg:text-xl md:text-2xl">
-            <span className="text-bold text-[#ff6a00]"> Quick Contact</span>
+            <span className="text-bold text-[#27ae60] "> Quick Contact</span>
             <br></br>
             Email:ofoetnigltd@gmail.com
             <br></br>
@@ -97,13 +101,13 @@ const Hero = () => {
             <a href="mailto:ofoetnigltd@gmail.com">
               <MdLocationOn
                 size={30}
-                className=" flex text-3xl cursor-pointer text-[#fd7e14] hover:text-[#fd7e14]"
+                className=" flex text-3xl cursor-pointer text-[#27ae60]  hover:text-[#27ae60] "
               />
             </a>{" "}
           </p>
 
           <p className="py-8 text-sm text-start text-bold lg:text-xl md:text-2xl">
-            <span className="text-bold text-[#ff6a00] "> Our Location</span>
+            <span className="text-bold text-[#27ae60]"> Our Location</span>
             <br></br>
             Onuiyi Junction,
             <br></br>Nsukka,Enugu State
@@ -121,13 +125,13 @@ const Hero = () => {
               <a href="mailto:ofoetnigltd@gmail.com">
                 <AiOutlineMail
                   size={30}
-                  className="flex text-3xl cursor-pointer text-[#fd7e14] hover:text-[#ff6a00]"
+                  className="flex text-3xl cursor-pointer text-[#27ae60]  hover:text-[#27ae60] "
                 />
               </a>{" "}
             </p>
 
             <p className="py-8 text-md text-start  ">
-              <span className="text-bold text-xl text-[#ff6a00]">
+              <span className="text-bold text-xl text-[#27ae60]">
                 {" "}
                 Quick Contact
               </span>
@@ -141,12 +145,12 @@ const Hero = () => {
             <p className="py-12 px-2">
               <MdLocationOn
                 size={30}
-                className=" flex text-3xl cursor-pointer text-[#fd7e14] hover:text-[#fd7e14]"
+                className=" flex text-3xl cursor-pointer text-[#27ae60]  hover:text-[#27ae60]"
               />
             </p>
 
             <p className="py-8 text-md text-start ">
-              <span className="text-bold text-[#ff6a00] text-xl ">
+              <span className="text-bold text-[#27ae60] text-xl ">
                 {" "}
                 Our Location
               </span>

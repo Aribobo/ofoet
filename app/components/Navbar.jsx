@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { RiMenu3Fill } from "react-icons/ri";
 import { GrClose } from "react-icons/gr";
@@ -13,19 +14,19 @@ import { AiOutlineMail } from "react-icons/ai";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [NavBg, setNavBg] = useState("transparent");
-  const [LinkColor, setLinkColor] = useState("black");
+  const [NavBg, setNavBg] = useState("white");
+  const [LinkColor, setLinkColor] = useState("#1f425d");
   const router = useRouter();
 
-  useEffect(() => {
-    if (router.asPath === "/About") {
-      setNavBg("#4f4f4f");
-      setLinkColor("black");
-    } else {
-      setNavBg("transparent");
-      setLinkColor("black");
-    }
-  }, [router]);
+  //   useEffect(() => {
+  //     if (router.asPath === "/About") {
+  //       setNavBg("#4f4f4f");
+  //       setLinkColor("black");
+  //     } else {
+  //       setNavBg("transparent");
+  //       setLinkColor("black");
+  //     }
+  //   }, [router]);
 
   const handleNav = () => {
     setNav(!nav);
@@ -34,11 +35,11 @@ const Navbar = () => {
     const handleShadow = () => {
       if (window.scrollY >= 10) {
         setShadow(true);
-        setNavBg("#272727");
-        setLinkColor("white");
+        setNavBg("#fff");
+        setLinkColor("#2c3e50");
       } else {
         setShadow(false);
-        setNavBg("transparent");
+        setNavBg("white");
       }
     };
     window.addEventListener("scroll", handleShadow);
@@ -54,60 +55,75 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+        <div
+          style={{ color: `${LinkColor}` }}
+          onClick={handleNav}
+          className="md:hidden"
+        >
+          <RiMenu3Fill size={28} />
+        </div>
         <Link href="/#home">
           <p
             style={{ color: `${LinkColor}` }}
             className="font-bold text-3xl pb-6 hover:cursor-pointer py-4"
           >
-            OFO<span className="text-[#fd7e14]">ET</span>
+            {/* <Image className="  md:ml-8 lg:ml-8"
+              src="https://res.cloudinary.com/ddukktwrv/image/upload/v1730558573/FoxContinental_2_lswm7m.png"
+              alt="Foxcontinental"
+              height={100}
+              width={330}
+            /> */}
+          
+          
           </p>
         </Link>
+
         <div>
           <ul style={{ color: `${LinkColor}` }} className="hidden md:flex">
             <Link href="/#home">
-              <li className="ml-10 text-sm uppercase hover:border-b py-2">
-                Home
+              <li className="ml-10 font-bold uppercase hover:border-b py-2">
+                home
               </li>
             </Link>
             <Link href="/About">
-              <li className="ml-10 text-sm uppercase hover:border-b py-2">
-                About
+              <li className="ml-10 font-bold uppercase hover:border-b py-2">
+               about
               </li>
             </Link>
-            <Link href="/#projects ">
-              <li className="ml-10 text-sm uppercase hover:border-b py-2">
-                projects{" "}
-              </li>
-            </Link>
-            <Link href="/#services">
-              <li className="ml-10 text-sm uppercase hover:border-b py-2">
+            <Link href="/#services ">
+              <li className="ml-10 font-bold uppercase hover:border-b py-2">
                 services
               </li>
             </Link>
             <Link href="/#footer">
-              <li className="ml-10 text-sm uppercase  py-2 px-4 bg-[#ff6a00] rounded-lg">
-                contact
+              <li className="ml-10 font-bold uppercase hover:border-b py-2">
+              projects
+              </li>
+            </Link>
+            <Link href="/#home">
+              <li className="ml-10 font-bold uppercase hover:border-b py-2">
+              contact
               </li>
             </Link>
           </ul>
-          <div
+          {/* <div
             style={{ color: `${LinkColor}` }}
             onClick={handleNav}
             className="md:hidden"
           >
             <RiMenu3Fill size={28} />
-          </div>
+          </div> */}
         </div>
       </div>
       <div
         className={
-          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
+          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-[#2c3e50]/70" : ""
         }
       >
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#4f4f4f] p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#2c3e50] p-10 ease-in duration-500"
               : "fixed left-[-150%] top-0  p-10 ease-in duration-800"
           }
         >
@@ -118,70 +134,95 @@ const Navbar = () => {
                   className="text-white font-bold text-3xl pb-6 hover:cursor-pointer"
                   onClick={() => setNav(false)}
                 >
-                  OFO<span className="text-[#ff6a00]">ET</span>
+                   {/* <img className=" md:ml-8 lg:ml-8"
+              src="https://res.cloudinary.com/ddukktwrv/image/upload/v1730558573/FoxContinental_2_lswm7m.png"
+              alt="Foxcontinental"
+          
+            >
+          
+            </img> */}
                 </p>
               </Link>
 
               <div
+                style={{ color: `${LinkColor}` }}
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                className="rounded-full shadow-sm shadow-gray-100 p-3 cursor-pointer"
               >
-                <GrClose />
+                <GrClose size={20} />
               </div>
             </div>
-            <div className="border-b border-orange-400 my-4">
+            {/* <div className="border-b border-orange-400 my-4">
               <p className="w-[85%] md:w-[90%] py-4 text-md text-white">
                 {" "}
                 For your Tech installation services and products{" "}
               </p>
-            </div>
+            </div> */}
           </div>
-          <div className="py-4 flex flex-col overflow-y-scroll text-white">
+          <div className="py-4 flex flex-col text-white">
             <ul className="uppercase">
-              <Link href="#">
-                <li className="py-4 text-md" onClick={() => setNav(false)}>
+              <Link href="/#home">
+                <li
+                  className="py-2 text-md border-b border-gray-500"
+                  onClick={() => setNav(false)}
+                >
                   Home
                 </li>
               </Link>
-              <Link href="/About">
-                <li className="py-4 text-md" onClick={() => setNav(false)}>
+              <Link href="/#about">
+                <li
+                  className="py-2 text-md border-b border-gray-500"
+                  onClick={() => setNav(false)}
+                >
                   about
                 </li>
               </Link>
-              <Link href="/#projects ">
-                <li className="py-4 text-md" onClick={() => setNav(false)}>
-                  projects
-                </li>
-              </Link>
-
-              <Link href="/#services">
-                <li className="py-4 text-md" onClick={() => setNav(false)}>
+              <Link href="/#services ">
+                <li
+                  className="py-2 text-md border-b border-gray-500"
+                  onClick={() => setNav(false)}
+                >
                   services
                 </li>
               </Link>
+
               <Link href="/#footer">
-                <li className="py-4 text-md" onClick={() => setNav(false)}>
+                <li
+                  className="py-2 text-md border-b border-gray-500"
+                  onClick={() => setNav(false)}
+                >
+                  projects
+                </li>
+              </Link>
+              <Link href="/#home">
+                <li
+                  className="py-2 text-md border-b border-gray-500"
+                  onClick={() => setNav(false)}
+                >
                   contact
                 </li>
               </Link>
             </ul>
             <br />
-            <p className="py-2 text-2xl text-bold text-[#ff6a00]">
+            <p className="py-2 text-2xl text-bold text-[#2c3e50] mt-12">
               Connect with us
             </p>
           </div>
 
           <div className="flex gap-6 pb-5 justify-start items-center text-white">
-            <a href="https://www.facebook.com/profile.php?id=100093083571109">
+            <a href="#">
               <FaFacebook className=" flex text-3xl cursor-pointer hover:text-blue-700" />
             </a>
-            <a href="mailto:iphounditonline@gmail.com">
+            <a href="mailto:ofoetnigltd@gmail.com">
               <AiOutlineMail className=" flex text-3xl cursor-pointer hover:text-[#fd7e14]" />
             </a>
-            <a href=" https://wa.me/+2349063899239">
+            <a href=" https://wa.me/+2348032807393
+
+
+">
               <FaWhatsapp className=" flex text-3xl cursor-pointer hover:text-green-700" />
             </a>
-            <a href="tel:+2349063899239">
+            <a href="tel:+2348032807393">
               <FiPhoneCall className=" flex text-3xl cursor-pointer hover:text-[#fd7e14]" />
             </a>
           </div>
