@@ -61,7 +61,7 @@ const Hero = () => {
               </Link>
               <Link href="/About">
                 {" "}
-                <button className="px-4 py-2 mt-4 bg-white text-[#2c3e50] font-bold">
+                <button className="px-4 py-2 mt-4 bg-[#2c3e50] text-white font-bold">
                   About Us!
                 </button>
               </Link>
