@@ -45,9 +45,9 @@ const Hero = () => {
               A leading developer of A-grade commercial, industrial and
               recidential Technology in Nigeria
               <br></br>
-              where innovation meets reliability in the realm of technology. we
-              specialize in cutting-edge services that redefine the way you
-              experience security, sustainability, and efficiency.
+            Your trusted partner in smart energy, security, and electrical solutions.
+            <br></br>
+             We power homes, schools, protect businesses and connect communities, one reliable system at a time.
             </p>
           </div>
 
