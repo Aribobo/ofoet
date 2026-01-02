@@ -40,7 +40,7 @@ const Hero = () => {
               Tech Solutions!
             </p>
           </div>
-          <div className="ml-10 lg:ml-20 ">
+          <div className="ml-12 lg:ml-20 ">
             <p className="text-md lg:text-xl w-auto">
               A leading developer of A-grade commercial, industrial and
               recidential Technology in Nigeria
